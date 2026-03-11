@@ -1,40 +1,41 @@
 # Basic Information 
-title: Yaoyao Liu
-position: Assistant Professor
-affiliation: University of Illinois
-affiliation_link: https://www.illinois.edu/
+title: Rongqi Bei
+position: PhD Student
+affiliation: University of Michigan
+affiliation_link: https://www.si.umich.edu/
 affiliation_logo: ./assets/img/illinois.svg
-email: lyy (at) illinois.edu
+email: rbei@umich.edu
 
 # Search Engine Optimization (SEO)
-keywords: yaoyao liu, liu yaoyao, yaoyaoliu, liuyaoyao
-canonical: https://yaoyaoliu.web.illinois.edu
-description: Yaoyao Liu is an assistant professor at the University of Illinois Urbana-Champaign. His research lies in meta-learning, incremental learning, and image generation.
+keywords: rongqi bei, bei rongqi, rongqibei, HCI, digital health, University of Michigan
+canonical: https://rongqibei.com
+description: Rongqi Bei is an HCI researcher and a second-year PhD student at the University of Michigan. Her work sits at the intersection of human-computer interaction (HCI) and digital health, focusing on designing technologies that support people's well-being in everyday life.
 
 # The option is used to enable the Illinois template.
-enable_hopkins_logo: true
+enable_hopkins_logo: false
 
 # The option is used to show the last update time.
-enable_last_update: false
+enable_last_update: true
 
 # Links
 link_type: icon #text/icon
-google_scholar: https://scholar.google.com/citations?user=Qi2PSmEAAAAJ
-github_link: https://github.com/yaoyao-liu/
-linkedin: https://www.linkedin.com/in/liuyaoyao/
-twitter: https://twitter.com/YaoyaoLiu1/
+google_scholar: https://scholar.google.com/citations?hl=en&user=qelg1bcAAAAJ&view_op=list_works&sortby=pubdate
+#github_link: https://github.com/yaoyao-liu/
+linkedin: https://www.linkedin.com/in/rongqi-bei/
+#twitter: https://twitter.com/YaoyaoLiu1/
+cv_link: ./assets/files/cv.pdf
 
 # Images 
-avatar: https://img.yliu.me/yaoyaoliu.jpg
+avatar: ./assets/img/rongqi-bei.png
 
 # Footnotes
-footnote: Feel free to use my website's source code.
-footnote_link: https://github.com/yaoyao-liu/minimal-light
+#footnote: Feel free to use my website's source code.
+#footnote_link: https://github.com/yaoyao-liu/minimal-light
 
 # Analytics
 # Please remove the following lines about analytics services if you fork my project. 
 # Otherwise, the analytics information of your website will be recorded to my ClustrMaps accounts.
-clustrmaps_id: HV0rAUdAxpfEQLOsVs0FcJTR2rKVI5sEQUZIDM-N_HY
+#clustrmaps_id: HV0rAUdAxpfEQLOsVs0FcJTR2rKVI5sEQUZIDM-N_HY
 
 # The following files will be removed from the generated website.
 exclude:
