@@ -2,6 +2,7 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <title>{{ site.title }} | {{ site.affiliation }}</title>
+    <link rel="icon" type="image/png" href="./assets/img/logo.ico">
 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -21,7 +22,7 @@
     <meta name="twitter:image" content="{{ site.avatar }}">
 
     <link rel="canonical" href="{{site.canonical}}/"/>
-    <link rel="apple-touch-icon" sizes="57x57" href="./assets/Illinois/apple-icon-57x57.png">
+    <!-- <link rel="apple-touch-icon" sizes="57x57" href="./assets/Illinois/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="./assets/Illinois/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="./assets/Illinois/apple-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="76x76" href="./assets/Illinois/apple-icon-76x76.png">
@@ -34,20 +35,24 @@
     <link rel="manifest" href="./assets/Illinois/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="./assets/Illinois/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+    <meta name="theme-color" content="#ffffff"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/pub.css">
     <link rel="stylesheet" href="./assets/css/nav.css">
 
-    <link rel="stylesheet" href="https://cdn.brand.illinois.edu/illinois.css">
+    <!-- <link rel="stylesheet" href="https://cdn.brand.illinois.edu/illinois.css"> -->
     
     <script src="./assets/js/github-stars.js"></script>
     <script type="text/javascript" src="./assets/js/jquery.js"></script>
     <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>
 
     <style>
+      html {
+        scroll-behavior: smooth;
+        scroll-padding-top: 45px;
+      }
       #newsmore {
         max-height: 0;
         overflow: hidden;
@@ -85,7 +90,7 @@
     
     <div class="topnav">
 
-      <a href="{{ site.affiliation_link }}"><img width="120" src="{{ site.affiliation_logo }}"></a>
+      <!-- a href="{{ site.affiliation_link }}"><img width="120" src="{{ site.affiliation_logo }}"></a> -->
 
       <div id="myLinks">
       {% include navigation-home.md %}
@@ -128,9 +133,10 @@
         {% endif %}
 
         <h1>{{ site.title }}</h1>
+        <p style="font-size:0.75rem;color:#aaa;margin-top:-12px;margin-bottom:6px;">pronounced "rong-chee bay"</p>
 
         {% if site.position %}
-        <position style="font-size:1.10rem;">{{ site.position }}</position>
+        <position style="font-size:1rem;">{{ site.position }}</position>
         <br>
         {% endif %}
         {% if site.affiliation %}
@@ -192,6 +198,7 @@
         {% endif %}
         <br>
 
+
       </header>
       <section>
 
@@ -244,5 +251,11 @@
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script>
+      document.querySelectorAll('a[href^="http"], a[href$=".pdf"]').forEach(function(a) {
+        a.setAttribute('target', '_blank');
+        a.setAttribute('rel', 'noopener noreferrer');
+      });
+    </script>
   </body>
 </html>

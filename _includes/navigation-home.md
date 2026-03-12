@@ -1,8 +1,5 @@
-{% for link in site.data.navigation.main %}
-  {% if link.right %}
-    <a class="normal right" href="./{{ link.url }}">{{ link.title }}</a>
-    {% else %}
-    <a class="normal" href="./{{ link.url }}">{{ link.title }}</a>
-  {% endif %}
-{% endfor %}
+<a class="normal right" href="#teaching">Teaching</a>
+<a class="normal" href="#services">Services</a>
+<a class="normal" href="#publications">Publications</a>
+<a class="normal" href="#about-me">Home</a>
 
