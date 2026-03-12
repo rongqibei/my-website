@@ -72,7 +72,7 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .publications ol.bibliography li div.abstract.hidden.open { border-color: var(--global-text-color); }
 
-.publications ol.bibliography li .teaser { border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.10); width: 200px; height: 123px; margin-top: 5px; margin-left: 5px; margin-bottom: 5px; object-fit: cover; }
+.publications ol.bibliography li .teaser { border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.10); width: 285px; height: 123px; margin-top: 5px; margin-left: 5px; margin-bottom: 5px; object-fit: cover; }
 
 .pub-tags { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 7px; }
 
