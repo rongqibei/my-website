@@ -48,7 +48,7 @@
 </div>
 
 <div style="text-align:right; margin-top:-15px;">
-  <a href="https://scholar.google.com/citations?user=qelg1bcAAAAJ" target="_blank" rel="noopener noreferrer" class="pub-link-btn">View all publications →</a>
+  <a href="https://scholar.google.com/citations?hl=en&user=qelg1bcAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" rel="noopener noreferrer" class="pub-link-btn">View all publications →</a>
 </div>
 
 

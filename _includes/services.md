@@ -1,6 +1,6 @@
 <h1 id="services"></h1>
 
-<h2 style="margin: 40px 0px 14px;">Services</h2>
+<h2 style="margin: 40px 0px 14px;">Service</h2>
 
 <p style="margin:0 0 4px;"><strong>Conference Reviewer</strong></p>
 

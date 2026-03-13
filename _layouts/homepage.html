@@ -109,19 +109,25 @@
     <script src="./assets/js/vanilla-back-to-top.min.js"></script>
     <script>addBackToTop({
         backgroundColor: '#fff',
-        innerHTML: 'Back to Top',
-        textColor: '#333'
+        innerHTML: '<i class="fa fa-arrow-up"></i>',
+        textColor: '#555'
       })
     </script>
     <style>
         #back-to-top {
-          border: 1px solid #ccc;
-          border-radius: 0;
-          font-size: 15px;
-          width: 100px;
+          border: 1px solid #e0e0e0;
+          border-radius: 50%;
+          font-size: 14px;
+          width: 40px;
+          height: 40px;
           text-align: center;
-          line-height: 30px;
-          height: 30px;
+          line-height: 40px;
+          box-shadow: 0 2px 4px rgba(0,0,0,0.10);
+          padding: 0;
+        }
+        #back-to-top:hover {
+          background-color: #f8f8f8;
+          box-shadow: 0 2x 8px rgba(0,0,0,0.14);
         }
     </style>
     

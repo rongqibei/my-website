@@ -10,5 +10,5 @@
 
   <li>Received Poster Prize (3rd place <span style="font-size: 0.95em;">🥉</span>) at the U-M Symposium on Human-Centered AI. <span style="font-size:0.85em;color:#777;">(10/2025)</span></li>
 
-  <li>Received Best Workshop Paper Award <span style="font-size: 0.85em;">🏆</span> at the 10th International Workshop on Mental Health and Well-being at UbiComp '25. Enjoyed sauna at Espoo, Finland! <span style="font-size:0.85em;color:#777;">(10/2025)</span></li>
+  <li>Received Best Workshop Paper Award <span style="font-size: 0.95em;">🥇</span> at the 10th International Workshop on Mental Health and Well-being at UbiComp '25. Enjoyed sauna at Espoo, Finland! <span style="font-size:0.85em;color:#777;">(10/2025)</span></li>
 </ul></div>
