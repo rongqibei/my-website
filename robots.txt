@@ -13,4 +13,4 @@ Disallow: /.gitignore
 Disallow: /.github/
 Disallow: /README.md
 
-Sitemap: https://yaoyaoliu.csl.illinois.edu/sitemap.xml
+Sitemap: https://rongqibei.com/sitemap.xml
