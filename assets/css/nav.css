@@ -277,15 +277,18 @@ header h1 {
         width: auto !important;
     }
     header {
-        padding-top: 80px !important;
+        padding-top: 50px !important;
     }
     .image.avatar,
     .image.avatar img {
         border-radius: 8px !important;
-        width: 150px !important;
+        width: 170px !important;
         padding: 0 !important;
         border: none !important;
         box-shadow: none !important;
+    }
+    section h2:first-of-type {
+        margin-top: 30px !important;
     }
 }
 
@@ -293,7 +296,7 @@ header h1 {
     .image.avatar,
     .image.avatar img {
         border-radius: 8px !important;
-        width: 120px !important;
+        width: 140px !important;
         padding: 0 !important;
         border: none !important;
         box-shadow: none !important;

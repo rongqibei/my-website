@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
-    <title>{{ site.title }} | {{ site.affiliation }}</title>
+    <!-- <title>{{ site.title }} | {{ site.affiliation }}</title> -->
+    <title>{{ site.title }}</title>
     <link rel="icon" type="image/png" href="./assets/img/logo.ico">
 
     <meta charset="utf-8" />
@@ -10,17 +11,37 @@
     <meta name="keywords" content="{{ site.keywords }}">
 
     <meta property="og:type" content="website">
-    <!-- <meta property="og:title" content="{{ site.title }} | {{ site.affiliation }}"> -->
-    <meta property="og:title" content="{{ site.title }}">
+    <meta property="og:title" content="{{ site.title }} | {{ site.affiliation }}">
     <meta property="og:url" content="{{ site.canonical }}">
     <meta property="og:site_name" content="{{ site.title }} | {{ site.affiliation }}">
     <meta property="og:description" content="{{ site.description }}">
     <meta property="og:locale" content="default">
-    <meta property="og:image" content="{{ site.avatar }}">
+    <meta property="og:image" content="{{ site.canonical }}/assets/img/rongqi-bei.png">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="{{ site.title }} | {{ site.affiliation }}">
     <meta name="twitter:description" content="{{ site.description }}">
-    <meta name="twitter:image" content="{{ site.avatar }}">
+    <meta name="twitter:image" content="{{ site.canonical }}/assets/img/rongqi-bei.png">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "{{ site.title }}",
+      "url": "{{ site.canonical }}",
+      "image": "{{ site.canonical }}/assets/img/rongqi-bei.png",
+      "jobTitle": "{{ site.position }}",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "{{ site.affiliation }}"
+      },
+      "description": "{{ site.description }}",
+      "email": "{{ site.email }}",
+      "sameAs": [
+        "{{ site.google_scholar }}",
+        "{{ site.linkedin }}"
+      ]
+    }
+    </script>
 
     <link rel="canonical" href="{{site.canonical}}/"/>
     <!-- <link rel="apple-touch-icon" sizes="57x57" href="./assets/Illinois/apple-icon-57x57.png">
