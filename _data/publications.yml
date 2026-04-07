@@ -3,13 +3,17 @@ main:
   - title: "Aligning LLM-Based Chatbots with Care Partners' Health-Related Quality of Life (HRQOL) Support Needs"
     authors: <strong>Rongqi Bei</strong> et al.
     conference_short: Under Preparation
-    conference: "Under Preparation, 2026"
+    # conference: "Manuscripts Under Preparation, 2026"
+    conference: "Manuscripts Under Preparation, 2026
+    <br><span style='font-size:0.85em'>📑 Engagement patterns, feas., accept., & well-being outcomes · <span style='background-color: #fff9e9; padding: 1px 5px; border-radius: 3px; font-size: 0.85em;'>Quant</span></span>
+    <br><span style='font-size:0.85em'>📑 Caregivers' needs vs. chatbot support: design implications · <span style='background-color: #fff9e9; padding: 1px 5px; border-radius: 3px; font-size: 0.85em;'>Qual</span></span>
+    <br><span style='font-size:0.85em'>📑 Conversational intent patterns in 13,600+ chat msgs · <span style='background-color: #fff9e9; padding: 1px 5px; border-radius: 3px; font-size: 0.85em;'>LLM-assisted</span></span>"
     image: ./assets/img/pubs/llm-chatbot.png
 
   - title: "A Qualitative Analysis of User Experiences of a mHealth Self-Care Intervention for Care Partners of Individuals with Traumatic Brain Injury"
     authors: <strong>Rongqi Bei</strong>, Christopher M. Graves, Sung Won Choi, Angelle M. Sander, Madison J. Fansher, Jennifer A. Miner, Zhenke Wu, Predrag Klasnja, Mark W. Newman, Noelle E. Carlozzi
     conference_short: ARCCT
-    conference: "Archives of Rehabilitation Research and Clinical Translation, 2025"
+    conference: "Archives of Rehabilitation Research and Clinical Translation, 2026"
     link: https://www.sciencedirect.com/science/article/pii/S259010952600025X
     image: ./assets/img/pubs/mhealth-tbi.png
 

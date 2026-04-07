@@ -13,7 +13,7 @@ body {
 }
 .pub-row {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
 .social-icons a {
   display: inline-block;

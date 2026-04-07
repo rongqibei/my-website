@@ -1,6 +1,6 @@
 <h1 id="publications"></h1>
 
-<h2 style="margin: 40px 0px -15px;">Selected Research in AI and Digital Health</h2>
+<h2 style="margin: 35px 0px -15px;">Selected Research in AI and Digital Health</h2>
 
 <div class="publications" style="margin-top:2.2rem;">
 <ol class="bibliography">
@@ -19,7 +19,7 @@
     <div class="title">
       {{ pub.title }}
       {% if pub.link %}
-      <a href="{{ pub.link }}" target="_blank" rel="noopener noreferrer" class="pub-link-btn">Link</a>
+      <a href="{{ pub.link }}" target="_blank" rel="noopener noreferrer" class="pub-link-btn">🔗 Link</a>
       {% endif %}
     </div>
     <div class="author">{{ pub.authors }}</div>
@@ -48,7 +48,7 @@
 </div>
 
 <div style="text-align:right; margin-top:-15px;">
-  <a href="https://scholar.google.com/citations?hl=en&user=qelg1bcAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" rel="noopener noreferrer" class="pub-link-btn">View all publications →</a>
+  <a href="https://scholar.google.com/citations?hl=en&user=qelg1bcAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" rel="noopener noreferrer" class="pub-link-btn">👀 View All Publications →</a>
 </div>
 
 
