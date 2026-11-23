@@ -9,6 +9,7 @@ main:
     image: ./assets/img/pubs/llm-chatbot.png
 
   - title: "A Qualitative Analysis of User Experiences of a mHealth Self-Care Intervention for Care Partners of Individuals with Traumatic Brain Injury"
+  # - title: "Lessons Learned for the Design and Evaluation of Adaptive mHealth Interventions for Family Caregivers"
     authors: <strong>Rongqi Bei</strong>, Christopher M. Graves, Sung Won Choi, Angelle M. Sander, Madison J. Fansher, Jennifer A. Miner, Zhenke Wu, Predrag Klasnja, Mark W. Newman, Noelle E. Carlozzi
     conference_short: ARCCT
     conference: "Archives of Rehabilitation Research and Clinical Translation, 2026"

@@ -4,7 +4,7 @@ layout: homepage
 
 <h1 id="about-me"></h1>
 
-<h2 style="margin: 70px 0px 10px;"></h2>
+<h2 style="margin: 76px 0px 10px;"></h2>
 
 👋 Hello! I am a 3rd-year Ph.D. candidate in Information at the [University of Michigan School of Information](https://www.si.umich.edu/), advised by [Mark Newman](https://www.si.umich.edu/people/mark-newman) and [Pedja Klasnja](https://www.si.umich.edu/people/pedja-klasnja). I also work closely with [Noelle Carlozzi](https://medschool.umich.edu/profile/3716/noelle-e-carlozzi) at the [Center for Clinical Outcomes Development and Application](https://medresearch.umich.edu/labs-departments/centers/coda), University of Michigan Medical School. Prior to Michigan, I received my B.S. in Data Science from [Duke Kunshan University](https://www.dukekunshan.edu.cn/)/[Duke University](https://www.duke.edu/), where I worked with [Xin Tong](https://cma.hkust-gz.edu.cn/faculty-regular/tong-xin/).
 
