@@ -1,13 +1,11 @@
 main:
 
-  - title: "Aligning LLM-Based Chatbots with Care Partners' Health-Related Quality of Life (HRQOL) Support Needs"
+  - title: "Conversational AI for Family Caregivers' Well-being Support"
     authors: <strong>Rongqi Bei</strong> et al.
-    conference_short: Under Preparation
-    # conference: "Manuscripts Under Preparation, 2026"
-    conference: "Manuscripts Under Preparation, 2026
-    <br><span style='font-size:0.85em'>📑 Engagement patterns, feas., accept., & well-being outcomes · <span style='background-color: #fff9e9; padding: 1px 5px; border-radius: 3px; font-size: 0.85em;'>Quant</span></span>
-    <br><span style='font-size:0.85em'>📑 Caregivers' needs vs. chatbot support: design implications · <span style='background-color: #fff9e9; padding: 1px 5px; border-radius: 3px; font-size: 0.85em;'>Qual</span></span>
-    <br><span style='font-size:0.85em'>📑 Conversational intent patterns in 13,600+ chat msgs · <span style='background-color: #fff9e9; padding: 1px 5px; border-radius: 3px; font-size: 0.85em;'>LLM-assisted</span></span>"
+    conference_short: Under Review
+    conference: "<span style='font-size:0.85em'>📑 Quantitative study of feasibility, acceptability, engagement patterns, and well-being outcomes <span style='background-color: #f0f0f0; color: #666; padding: 1px 5px; border-radius: 3px; font-size: 0.95em; font-style: normal; white-space: nowrap;'>Under Review</span></span>
+    <br><span style='font-size:0.85em'>📑 Qualitative study of alignment between caregivers' needs and chatbot support <span style='background-color: #f0f0f0; color: #666; padding: 1px 5px; border-radius: 3px; font-size: 0.95em; font-style: normal; white-space: nowrap;'>Under Review</span></span>
+    <br><span style='font-size:0.85em'>📑 LLM-assisted chat log analysis of caregivers' intents and chatbot support moves <span style='background-color: #e8f5e9; color: #2e7d32; padding: 1px 5px; border-radius: 3px; font-size: 0.95em; font-style: normal; white-space: nowrap;'>UbiComp '26 Workshop 🥇 Best Paper</span> <a href='./assets/files/conversational-intent-chatbot.pdf' title='Inside Family Caregivers’ Conversations with a Well-being Chatbot in the Wild' target='_blank' rel='noopener noreferrer' class='pub-link-btn' style='font-style:normal;'>📃 PDF</a></span>"
     image: ./assets/img/pubs/llm-chatbot.png
 
   - title: "A Qualitative Analysis of User Experiences of a mHealth Self-Care Intervention for Care Partners of Individuals with Traumatic Brain Injury"
@@ -19,8 +17,8 @@ main:
 
   - title: "Eliciting User Feedback to Enhance Personalization of Just-in-time Adaptive Interventions (JITAIs): An Exploratory Study"
     authors: <strong>Rongqi Bei</strong>, Xinghui (Erica) Yan, Noelle E. Carlozzi, Pedja Klasnja, Mark W. Newman
-    conference_short: Under Revision
-    conference: "Under Revision, 2025"
+    conference_short: Under Review
+    conference: "Under Review, 2026"
     image: ./assets/img/pubs/jitai.png
 
   - title: "Proposing a Context-informed Layer-based Framework: Incorporating Context into Designing mHealth Technology for Fatigue Management"

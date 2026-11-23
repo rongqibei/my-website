@@ -253,7 +253,7 @@ a:hover    { color: #1557b0; }
 
 header {
     width: 250px !important;
-    padding-top: 104px !important;
+    padding-top: 94px !important;
 }
 
 section {
@@ -267,6 +267,7 @@ footer {
 /* Gap between photo and name */
 header h1 {
     margin-top: 18px !important;
+    font-size: 22px;
 }
 
 @media print, screen and (max-width: 960px) {
@@ -328,18 +329,40 @@ email { color: #555; font-size: 13.5px; }
 
 /* Right column – slightly smaller base font */
 section {
-    font-size: 15px;
+    font-size: 14.5px;
 }
 
 /* News – body text size and indent */
 .section-news ul {
-    font-size: 14px;
+    font-size: 13px;
     padding-left: 30px;
 }
 
 .section-news ul li {
     font-size: 14px;
     padding-left: 5px;
+}
+
+/* News – "Show more" toggle */
+.section-news > ul {
+    margin-bottom: 0;
+}
+
+.section-news details summary {
+    cursor: pointer;
+    color: #777;
+    font-size: 12.5px;
+    margin-left: 30px;
+    padding-top: 2px;
+}
+
+.section-news details summary:hover {
+    color: #3c3c3c;
+}
+
+.section-news details ul {
+    padding-top: 0;
+    margin-top: 0;
 }
 
 /* Teaching / Service – indent only (preserve inherited font size) */

@@ -1,6 +1,6 @@
 <h1 id="publications"></h1>
 
-<h2 style="margin: 35px 0px -15px;">Selected Research in AI and Digital Health</h2>
+<h2 style="margin: 25px 0px -15px;">Selected Research in AI and Digital Health</h2>
 
 <div class="publications" style="margin-top:2.2rem;">
 <ol class="bibliography">
@@ -9,13 +9,13 @@
 
 <li>
 <div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 10px;padding-left: 5px;">
     <img src="{{ pub.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
     {% if pub.conference_short and pub.conference_short != "" %}
     <abbr class="badge">{{ pub.conference_short }}</abbr>
     {% endif %}
   </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+  <div class="col-sm-9" style="position: relative;padding-right: 0px;padding-left: 15px;">
     <div class="title">
       {{ pub.title }}
       {% if pub.link %}
